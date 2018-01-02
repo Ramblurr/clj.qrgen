@@ -1,7 +1,7 @@
 (ns clj.qrgen
   "A Clojure library designed to generate QRCode wrapped java [QRGen](https://github.com/kenglxn/QRGen)."
   {:author "dennis <killme2008@gmail.com>"}
-  (:import [net.glxn.qrgen.core.vcard VCard]
+  (:import [net.glxn.qrgen.core.scheme VCard]
            [net.glxn.qrgen.core.image ImageType]
            [com.google.zxing.qrcode.decoder ErrorCorrectionLevel]
            [com.google.zxing EncodeHintType]
